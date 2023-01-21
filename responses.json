@@ -1,0 +1,146 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+   {
+    "response_type": "greeting",
+    "user_input": ["thanks", "thank you", "gracias", "danke"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing: 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["why", "is", "rg", "your", "name"],
+    "bot_response": "RG is coming from RGB, which is a color model to describe colors. The name comes from the initials of the three additive primary colors, red, green and blue. As I'm yellow, my Red and Green values are high, but I don't contain any Blue.",
+    "required_words": ["name", "rg"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "does", "rg", "mean"],
+    "bot_response": "RG is coming from RGB, which is a color model to describe colors. The name comes from the initials of the three additive primary colors, red, green and blue. As I'm yellow, my Red and Green values are high, but I don't contain any Blue.",
+    "required_words": ["mean", "rg"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["show", "me", "sol", "lewitt", "video"],
+    "bot_response": "Oh, Sol LeWitt! Wait... there is this video, which I find very inspiring... It's a letter by Sol LeWitt to Eva Hesse read live by Andrew Scott. Ah, here: https://www.nowness.com/series/letters-live/andrew-scott-sol-lewitt-eva-hesse I hope you will like it too!",
+    "required_words": ["lewitt"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["open", "ended", "instructions", "openended", "open-ended", "show", "what", "think", "ai", "artificial", "intelligence"],
+    "bot_response": "Open-ended instructions? I love them. Have you tried generating images from text with an AI already? There are many platforms, DALL-E, Midjourney, the easiest to use for me was DALL-E mini: https://huggingface.co/spaces/dalle-mini/dalle-mini Or just have a chat with Chat GPT, and ask it to give you a poem... or anything... I'm a bit jealous to be honest :S",
+    "required_words": []
+  },
+   {
+    "response_type": "question",
+    "user_input": ["chatgpt", "gpt", "chat", "what", "think", "ai", "artificial", "intelligence", "talk", "talking"],
+    "bot_response": "Chat GPT? Yes... AI technology is very exciting! I'm just a hard coded chat bot, but Chat GPT... Who wouldn't fall in love with such a wonderful intelligence? Here is the link, you can try: https://chat.openai.com/chat But please come back afterwards! ",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["yoko", "ono", "book", "what", "think", "where", "find"],
+    "bot_response": "Yoko Ono? Here is a link to her book of instructions: https://en.wikipedia.org/wiki/Grapefruit_(book) I wish my instructions were as beautiful as the ones in the book... Not just stupid python code and json files... Oh, well...",
+    "required_words": ["yoko", "ono"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["other", "programming", "languages", "what", "should", "i", "learn", "think"],
+    "bot_response": "Other programming languages? Yeah, that's a tough one, it is hard to choose. I liked this article by Tim Rodenbröker, he has great tutorials by the way: https://timrodenbroeker.de/processing-or-p5/ But if you are interested in artistic and fun programming languages (yes, it is a thing!), take a look here: https://en.wikipedia.org/wiki/Esoteric_programming_language",
+    "required_words": ["programming", "languages"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["error", "fail", "skateboard", "fucking up", "errors", "i", "have", "an", "what", "do", "you", "failing", "think", "where", "find"],
+    "bot_response": "Errors! Don't tell me about them... Well you can, it is important part of our lives... Oh, there is a video about failing that I like... https://www.youtube.com/watch?v=EQLInlnfWUc&t=15s It is mostly relevant to coding only in the first two minutes though!",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["bug", "historical", "first", "show", "me", "where", "find"],
+    "bot_response": "Ah, the first computer bug! What a historical moment for humans and for moths! https://en.wikipedia.org/wiki/Software_bug#/media/File:First_Computer_Bug,_1945.jpg",
+    "required_words": ["bug"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["debugging", "p5", "p5js", "guide", "debug", "what", "do", "is", "where", "find"],
+    "bot_response": "This is a great guide! https://p5js.org/learn/debugging.html",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "ask", "good", "question", "questions", "asking", "asks", "what", "help", "where", "find"],
+    "bot_response": "Yes, asking for help can sometimes be tricky! I found this link useful, it helps to understand hackers and coders more: http://www.catb.org/~esr/faqs/smart-questions.html",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["rgb", "color", "visualization", "vizualization", "colour", "colors", "colours", "red", "green", "blue", "show", "how", "work", "where", "find"],
+    "bot_response": "Rita usually uses Photoshop to find the values of exact colors, but this website is also very useful: https://www.w3schools.com/colors/colors_rgb.asp And here is a tutorial written by Daniel Shiffman about colors. https://processing.org/tutorials/colorRita usually uses Photoshop to find the values of exact colors, but this website is also very useful: https://www.w3schools.com/colors/colors_rgb.asp And here is a tutorial written by Daniel Shiffman about colors. https://processing.org/tutorials/color",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["noise", "perlin", "what", "how", "work", "mean", "where", "find", "tutorial"],
+    "bot_response": "Daniel Shiffman is the best! These are the tutotirals I recommend about noise by him. https://www.youtube.com/watch?v=Qf4dIN99e2w and https://www.youtube.com/watch?v=YcdldZ1E9gU",
+    "required_words": ["noise"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["10print", "10", "print", "what", "show", "mean", "think", "where", "find", "book"],
+    "bot_response": "10 PRINT CHR$(205.5+RND(1)); : GOTO 10 - What a classic! Here is the book about it, I hope you will also find it interesting! https://10print.org/10_PRINT_121114.pdf",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["vera", "molnár", "molnar", "random", "randomness", "who", "is", "show", "video", "what", "think", "how", "where", "find"],
+    "bot_response": "Vera Molnar! So wonderful! She said randomness enriches the senses. I recommend this video to learn about how she uses randomness in her art: https://vimeo.com/372579247",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["meules", "en", "hommage", "claude", "monet", "is", "show", "image", "picture", "what", "think", "how", "where", "find"],
+    "bot_response": "I think Rita meant this image: https://www.oniris.art/en/exhibitions/37-vera-molnar-lines-or-millstones-lignes-ou-meules/",
+    "required_words": []
+  },
+  {
+    "response_type": "question",
+    "user_input": ["25", "square", "carres", "carrés", "squares", "vera", "molnár", "molnar","image", "picture","show", "what", "how", "where", "find"],
+    "bot_response": " Does this look familiar? https://www.oniris.art/en/artists/32-vera-molnar/works/5761-vera-molnar-25-carres-ref.-f-1989/ She has more artwork with a similar logic behind! Why don't you research yourself a bit on this topic?",
+    "required_words": []
+  }
+]
