@@ -10,6 +10,10 @@ Currently it is only running from the computer, it is not online yet.
 
 
 ## To run the code:
+
+### Environment: 
+I have a Windows laptop, PyCharm 2022.3.2, Python interpreter 3.7. 
+
 1. Open the project in Pycharm! 
 2. In the terminal you have to download the discord libary by typing:
 pip install discord.py
@@ -17,6 +21,7 @@ pip install discord.py
 4. In theory, now RG is already available to chat on our Discord channel! 
 This is the link to the dirsocrd: [bit.ly/decodebook]([https://link-url-here.org](https://discord.com/channels/1060665666534899762/1060665666534899764)) 
 If you click on Show Member List, you find RG. You can start a discussion with them directly. 
+
 
 
 
