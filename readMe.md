@@ -7,7 +7,7 @@ As I consider the book my main contribution, making RG smarter is a plan for the
 It is prepared to answer questions that are mentioned in the book specifically and for some general small talk. 
 
 Currently it is only running from the computer, it is not online yet. 
-This is not ideal, but as long as the book is not published, 
+
 
 ## To run the code:
 1. Open the project in Pycharm! 
